@@ -1,0 +1,27 @@
+{
+  "name": "ts-canvas",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "dev": "webpack-cli serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "TypeScript",
+    "Canvas"
+  ],
+  "author": "Fyq <420125423@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.4.0",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
