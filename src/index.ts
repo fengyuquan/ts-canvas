@@ -1,4 +1,9 @@
 import { Canvas2D } from './canvas2D/Canvas2D'
+import { basicUse } from './canvas2D/basicUse'
+import { createRandomParticleFullScreen } from './demo/randomParticle'
+
+// basicUse()
+// createRandomParticleFullScreen()
 
 const canvas = document.getElementById('canvas') as HTMLCanvasElement
 if (canvas === null) {
